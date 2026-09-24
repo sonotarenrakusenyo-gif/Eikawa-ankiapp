@@ -1,0 +1,194 @@
+{
+  "id": "01-first-friend",
+  "title": "初めて会う友達との会話",
+  "subtitle": "英語の経歴やおすすめのお店について",
+  "tags": ["初対面・友人", "留学・英語学習", "食・スーパー", "食・外食・カフェ"],
+  "notes": [
+    {
+      "phrase": "root for 人",
+      "meaning": "〜を応援する"
+    },
+    {
+      "phrase": "feel free to ～",
+      "meaning": "遠慮なく～してね／気軽に～してね（相手の英文ではなくてもよい）"
+    },
+    {
+      "phrase": "lean beef",
+      "meaning": "赤身牛肉。「red meat」は赤身ではなく牛・豚・羊などの「赤い肉」全般"
+    },
+    {
+      "phrase": "even + 比較級",
+      "meaning": "さらに〜（even cheaper など）"
+    },
+    {
+      "phrase": "I want / I'd like / I'd love to",
+      "meaning": "行きたい → 行きたいです → ぜひ行きたい、と気持ちが強くなる"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "you",
+      "ja": "はじめまして！私はるかです！最近日本から来ました。まだ全然英語話せないんだけど、よろしくね。",
+      "en": "Hi! I'm Ruka. I just came from Japan. I can't speak English very well yet, but nice to meet you.",
+      "katakana": "ハイ！ アイム ルカ。アイ ジャスト ケイム フロム ジャパン。アイ キャント スピーク イングリッシュ ベリー ウェル イェット、バット ナイス トゥ ミート ユー。"
+    },
+    {
+      "speaker": "partner",
+      "ja": "はじめまして、るか！会えてうれしいよ。心配しないで。きっとうまくなるよ！",
+      "en": "Nice to meet you, Ruka! Don't worry. You'll get better. I'm sure you'll do great.",
+      "katakana": "ナイス トゥ ミート ユー、ルカ！ ドント ウォーリー。ユール ゲット ベター。アイム シュア ユール ドゥ グレイト。"
+    },
+    {
+      "speaker": "you",
+      "ja": "ありがとう。優しい…。とりあえず1年滞在予定だから、みんなとたくさん話して頑張ってみる！",
+      "en": "Thank you. That's so kind of you. I'm planning to stay here for a year, so I'll try my best to talk with everyone.",
+      "katakana": "サンキュー。ザッツ ソー カインド オブ ユー。アイム プランニング トゥ ステイ ヒア フォー ア イヤー、ソー アイル トライ マイ ベスト トゥ トーク ウィズ エブリワン。"
+    },
+    {
+      "speaker": "partner",
+      "ja": "それはいいね！1年あればきっと英語も上達するよ。何かわからないことがあったら、いつでも聞いてね。",
+      "en": "That's great! I'm sure your English will improve in a year. If you ever have any questions, just ask me.",
+      "katakana": "ザッツ グレイト！アイム シュア ユア イングリッシュ ウィル インプルーヴ イン ア イヤー。イフ ユー エヴァー ハブ エニィ クエスチョンズ、ジャスト アスク ミー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "いつからここに住んでる？",
+      "en": "How long have you lived here?",
+      "katakana": "ハウ ロング ハブ ユー リブド ヒア？"
+    },
+    {
+      "speaker": "partner",
+      "ja": "3年くらい住んでるよ。",
+      "en": "I've lived here for about three years.",
+      "katakana": "アイブ リブド ヒア フォー アバウト スリー イヤーズ."
+    },
+    {
+      "speaker": "you",
+      "ja": "3年住んでたら、英語は結構話せるようになる？最初はどのくらいのレベルだったの？今はどれくらい話せるの？",
+      "en": "After living here for three years, can you speak English pretty well? What was your English like when you first came? How well can you speak now?",
+      "katakana": "アフター リビング ヒア フォー スリー イヤーズ、キャン ユー スピーク イングリッシュ プリティ ウェル？ ワット ワズ ユア イングリッシュ ライク ウェン ユー ファースト ケイム？ ハウ ウェル キャン ユー スピーク ナウ？"
+    },
+    {
+      "speaker": "partner",
+      "ja": "最初は簡単なあいさつくらいしかできなかったよ。でも毎日話していたら、今は普通に日常会話ができるようになったよ。",
+      "en": "At first, I could only say simple greetings. But after speaking English every day, I can have everyday conversations now.",
+      "katakana": "アット ファースト、アイ クッド オンリー セイ シンプル グリーティングズ。 バット アフター スピーキング イングリッシュ エブリ デイ、アイ キャン ハブ エブリデイ カンバセイションズ ナウ。"
+    },
+    {
+      "speaker": "you",
+      "ja": "すごいね、羨ましい！私も早く話せるようになりたいけど、緊張して言葉が出てこないこともしばしば…。",
+      "en": "That's amazing! I'm so jealous. I want to speak English fluently too, but I get nervous and sometimes I can't find the right words.",
+      "katakana": "ザッツ アメイジング！アイム ソー ジェラス。アイ ワント トゥ スピーク イングリッシュ フルーエントリー トゥー、バット アイ ゲット ナーバス アンド サムタイムズ アイ キャント ファインド ザ ライト ワーズ。"
+    },
+    {
+      "speaker": "partner",
+      "ja": "みんな最初はそうだよ。気にしなくて大丈夫！たくさん話していれば、少しずつ自信がついてくるよ。",
+      "en": "Everyone feels that way at first. Don't worry! The more you speak, the more confident you'll become.",
+      "katakana": "エブリワン フィールズ ザット ウェイ アット ファースト。ドント ウォーリー！ザ モア ユー スピーク、ザ モア コンフィデント ユール ビカム。"
+    },
+    {
+      "speaker": "you",
+      "ja": "そうだよね。来たばかりなんだし、頑張ってみる！",
+      "en": "You're right. I just got here, so I'll do my best!",
+      "katakana": "ユア ライト。アイ ジャスト ガット ヒア、ソー アイル ドゥ マイ ベスト！"
+    },
+    {
+      "speaker": "partner",
+      "ja": "その調子！応援してるよ。何かあったらいつでも話しかけてね。",
+      "en": "That's the spirit! I'm rooting for you. If you need anything, feel free to talk to me anytime.",
+      "katakana": "ザッツ ザ スピリット！アイム ルーティング フォー ユー。イフ ユー ニード エニシング、フィール フリー トゥ トーク トゥ ミー エニタイム。"
+    },
+    {
+      "speaker": "you",
+      "ja": "アメリカに来たばかりの時って、ごはんはどうしてた？",
+      "en": "What did you do for food when you first came to the U.S.?",
+      "katakana": "ワット ディド ユー ドゥ フォー フード ウェン ユー ファースト ケイム トゥ ザ ユーエス？"
+    },
+    {
+      "speaker": "partner",
+      "ja": "最初は外食が多かったよ。でもスーパーを見つけてからは、自炊するようになった。",
+      "en": "At first, I ate out a lot. But after I found a grocery store, I started cooking at home.",
+      "katakana": "アット ファースト、アイ エイト アウト ア ロット。バット アフター アイ ファウンド ア グローサリー ストア、アイ スターテッド クッキング アット ホーム。"
+    },
+    {
+      "speaker": "you",
+      "ja": "作るんだ！何作ったりするの？",
+      "en": "Oh, you cook! What do you usually make?",
+      "katakana": "オー、ユー クック！ ホワット ドゥ ユー ユージュアリー メイク？"
+    },
+    {
+      "speaker": "partner",
+      "ja": "パスタやカレーを作ることが多いよ。",
+      "en": "I usually make pasta and curry.",
+      "katakana": "アイ ユージュアリー メイク パスタ アンド カリー"
+    },
+    {
+      "speaker": "you",
+      "ja": "そうなんだ！パスタおいしいよね。スーパーおすすめなところあったら教えて！",
+      "en": "Oh, nice! Pasta is so good. If you know any good grocery stores, let me know!",
+      "katakana": "オー、ナイス！ パスタ イズ ソー グッド。イフ ユー ノウ エニー グッド グローサリー ストアズ、レット ミー ノウ！"
+    },
+    {
+      "speaker": "partner",
+      "ja": "もちろん！私はTrader Joe'sによく行くよ。安いし、おいしいものがたくさんあるよ。",
+      "en": "Sure! I usually go to Trader Joe's. It's affordable, and they have a lot of good food.",
+      "katakana": "シュア！ アイ ユージュアリー ゴー トゥ トレーダー ジョーズ。イッツ アフォーダブル、アンド ゼイ ハブ ア ロット オブ グッド フード。"
+    },
+    {
+      "speaker": "you",
+      "ja": "お肉も安く買えるかな？特に牛肉の赤身！タンパク質取りたくて（笑）",
+      "en": "Can you get meat there for a good price? Especially lean beef. I'm trying to eat more protein. (laughs)",
+      "katakana": "キャン ユー ゲット ミート ゼア フォー ア グッド プライス？ エスペシャリー リーン ビーフ。アイム トライング トゥ イート モア プロウティーン。（ラフス）"
+    },
+    {
+      "speaker": "partner",
+      "ja": "あるよ！Trader Joe'sにもあるし、Costcoならもっと安く買えるよ。",
+      "en": "Yeah! Trader Joe's has some, and Costco is even cheaper.",
+      "katakana": "イェー！ トレーダー ジョーズ ハズ サム、アンド コストコ イズ イーブン チーパー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "そうなんだ！外食するなら、おすすめのお店ある？",
+      "en": "Oh, I see! Do you have any restaurants you recommend?",
+      "katakana": "オー、アイ シー！ ドゥ ユー ハヴ エニー レストランツ ユー レコメンド？"
+    },
+    {
+      "speaker": "partner",
+      "ja": "あるよ！最近、すごくおいしいイタリアンのお店を見つけたよ。",
+      "en": "Yeah! I recently found a really good Italian restaurant.",
+      "katakana": "イェー！ アイ リーセントリー ファウンド ア リアリー グッド イタリアン レストラント。"
+    },
+    {
+      "speaker": "you",
+      "ja": "イタリアン行ってみたい！あとはステーキ食べられるリーズナブルなお店もあったらいいなって。",
+      "en": "I'd love to try Italian food! And I'd also love to find a reasonably priced steak place.",
+      "katakana": "アイズ ラヴ トゥ トライ イタリアン フード！ アンド アイド オールソー ラヴ トゥ ファインド ア リーズナブリー プライスト ステイク プレイス。"
+    },
+    {
+      "speaker": "you",
+      "ja": "あとは、ゆっくりできて雰囲気のいいカフェとか。",
+      "en": "And maybe a nice café where I can relax and take my time.",
+      "katakana": "アンド メイビー ア ナイス カフェイ ウェア アイ キャン リラックス アンド テイク マイ タイム。",
+      "enAlt": "And maybe a nice café where I can relax.",
+      "katakanaAlt": "アンド メイビー ア ナイス カフェイ ウェア アイ キャン リラックス"
+    },
+    {
+      "speaker": "partner",
+      "ja": "あるよ！この辺に、落ち着いてて雰囲気のいいカフェがいくつかあるよ。",
+      "en": "Yeah! There are a few cozy cafés around here with a nice atmosphere.",
+      "katakana": "イェー！ ゼア アー ア フュー コウジー カフェイズ アラウンド ヒア ウィズ ア ナイス アトモスフィア。"
+    },
+    {
+      "speaker": "you",
+      "ja": "いいね！今度行ってみたい！また教えてほしい！",
+      "en": "Sounds good! I'd love to go sometime. Let me know again!",
+      "katakana": "サウンズ グッド！ アイド ラヴ トゥ ゴー サムタイム。レット ミー ノウ アゲイン！"
+    },
+    {
+      "speaker": "partner",
+      "ja": "もちろん！今度おすすめのお店を教えるね。",
+      "en": "Sure! I'll tell you about some good places next time.",
+      "katakana": "シュア！ アイル テル ユー アバウト サム グッド プレイシズ ネクスト タイム。"
+    }
+  ]
+}

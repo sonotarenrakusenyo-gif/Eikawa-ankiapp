@@ -1,0 +1,8 @@
+{
+  "scenarios": [
+    {
+      "id": "01-first-friend",
+      "url": "data/scenarios/01-first-friend.json"
+    }
+  ]
+}

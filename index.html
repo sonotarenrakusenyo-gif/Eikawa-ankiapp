@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>日常英会話 音読暗記</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>日常英会話 音読暗記</h1>
+      <p class="lead">
+        まず日本語だけ見て、頭の中で英文を考えてから「答えを見る」を押してください。表示されたあと 🔊 で読み上げできます。
+      </p>
+      <nav class="view-tabs" id="view-tabs" hidden aria-label="表示切り替え">
+        <button type="button" class="view-tab is-active" data-view="all">全会話</button>
+        <button type="button" class="view-tab" data-view="likes">
+          いいねだけ <span class="like-count" id="like-count">0</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="app" class="app">
+      <p class="loading">会話を読み込み中…</p>
+    </main>
+
+    <button type="button" id="back-to-top" class="back-to-top" hidden aria-label="ページの上へ">
+      ↑ 上へ
+    </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
