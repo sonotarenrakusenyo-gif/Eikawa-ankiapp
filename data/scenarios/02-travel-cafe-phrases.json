@@ -17,6 +17,28 @@
       "meaning": "店内かお持ち帰りか"
     }
   ],
+  "sections": [
+    {
+      "id": "immigration",
+      "title": "入国・税関",
+      "description": "目的の確認・持ち込み食品など",
+      "lineStart": 0,
+      "lineEnd": 3
+    },
+    {
+      "id": "daily",
+      "title": "カフェ・雑談",
+      "description": "Uber・注文・会計・レシート・雑談と締めの言葉",
+      "lineRanges": [[4, 28], [51, 59]]
+    },
+    {
+      "id": "reactions",
+      "title": "相づち・リアクション",
+      "description": "うんうん・わかる・え！・いいね！など",
+      "lineStart": 29,
+      "lineEnd": 50
+    }
+  ],
   "lines": [
     {
       "speaker": "partner",
