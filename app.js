@@ -396,10 +396,11 @@ async function renderCurrentView() {
       return;
     }
 
-    const first = scenarioRegistry[0];
-    if (!first) throw new Error("会話が登録されていません");
-    const data = await fetchScenario(first.url);
-    renderScenarioFull(data);
+    if (!scenarioRegistry.length) throw new Error("会話が登録されていません");
+    for (const reg of scenarioRegistry) {
+      const data = await fetchScenario(reg.url);
+      renderScenarioFull(data);
+    }
   } catch (err) {
     app.innerHTML = `
       <div class="error">

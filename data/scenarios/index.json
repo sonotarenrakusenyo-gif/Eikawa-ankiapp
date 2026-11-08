@@ -3,6 +3,10 @@
     {
       "id": "01-first-friend",
       "url": "data/scenarios/01-first-friend.json"
+    },
+    {
+      "id": "02-travel-cafe-phrases",
+      "url": "data/scenarios/02-travel-cafe-phrases.json"
     }
   ]
 }
