@@ -1,0 +1,382 @@
+{
+  "id": "02-travel-cafe-phrases",
+  "title": "入国・カフェ・相づちフレーズ集",
+  "subtitle": "渡航・注文・会計・リアクション・雑談の定番表現",
+  "tags": ["入国・税関", "カフェ・外食", "会計", "相づち", "雑談"],
+  "notes": [
+    {
+      "phrase": "pre-washed rice / 無洗米",
+      "meaning": "洗わずに炊ける米。税関で食品があると聞かれたときの説明例"
+    },
+    {
+      "phrase": "light ice",
+      "meaning": "氷少なめ（飲み物のカスタム）"
+    },
+    {
+      "phrase": "for here or to go",
+      "meaning": "店内かお持ち帰りか"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "partner",
+      "ja": "渡航の目的は何ですか？",
+      "en": "What is the purpose of your visit?",
+      "katakana": "ワット イズ ザ パーパス オブ ユア ヴィジット？"
+    },
+    {
+      "speaker": "you",
+      "ja": "夫に同行しています。",
+      "en": "I'm accompanying my husband.",
+      "katakana": "アイム アカンパニイング マイ ハズバンド。"
+    },
+    {
+      "speaker": "partner",
+      "ja": "食品はありますか？",
+      "en": "Are you bringing any food?",
+      "katakana": "アー ユー ブリングイング エニィ フード？"
+    },
+    {
+      "speaker": "you",
+      "ja": "急に食事が変わると体調を崩すかもしれないので自分用に無洗米を持ってきました。",
+      "en": "I'm bringing some pre-washed Japanese rice for my personal use because I may get sick if I suddenly change my diet.",
+      "katakana": "アイム ブリングイング サム プリウォッシュト ジャパニーズ ライス フォー マイ パーソナル ユース ビコーズ アイ メイ ゲット シック イフ アイ サドンリー チェンジ マイ ダイエット。"
+    },
+    {
+      "speaker": "you",
+      "ja": "Uberの乗車場所はどこですか？",
+      "en": "Where is the Uber pick-up area?",
+      "katakana": "ウェア イズ ザ ウーバー ピックアップ エリア？"
+    },
+    {
+      "speaker": "partner",
+      "ja": "今日は何になさいますか？",
+      "en": "What can I get for you today?",
+      "katakana": "ワット キャン アイ ゲット フォー ユー トゥデイ？"
+    },
+    {
+      "speaker": "you",
+      "ja": "アイスティーとブルーベリードーナツをください。",
+      "en": "I'd like an iced tea and a blueberry donut, please.",
+      "katakana": "アイド ライク アン アイスト ティー アンド ア ブルーベリー ドーナット、プリーズ。"
+    },
+    {
+      "speaker": "you",
+      "ja": "氷少なめでお願いします。",
+      "en": "With light ice, please.",
+      "katakana": "ウィズ ライト アイス、プリーズ。"
+    },
+    {
+      "speaker": "you",
+      "ja": "ストローをもらえますか？",
+      "en": "Could I have a straw, please?",
+      "katakana": "クッド アイ ハブ ア ストロー、プリーズ？"
+    },
+    {
+      "speaker": "you",
+      "ja": "すみません、アイスティーを頼んだのですが、これはアイスコーヒーです。",
+      "en": "Excuse me, I ordered an iced tea, but this is an iced coffee.",
+      "katakana": "エクスクューズ ミー、アイ オーダード アン アイスト ティー、バット ディス イズ アン アイスト コーヒー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "交換してもらえますか？",
+      "en": "Could you change it, please?",
+      "katakana": "クッド ユー チェンジ イット、プリーズ？"
+    },
+    {
+      "speaker": "partner",
+      "ja": "イートインか持ち帰りどちら？",
+      "en": "For here or to go?",
+      "katakana": "フォー ヒア オア トゥ ゴー？"
+    },
+    {
+      "speaker": "you",
+      "ja": "店内でお願いします。",
+      "en": "For here, please.",
+      "katakana": "フォー ヒア、プリーズ。"
+    },
+    {
+      "speaker": "you",
+      "ja": "シロップ多めでお願いします。",
+      "en": "More syrup, please.",
+      "katakana": "モア シロップ、プリーズ。"
+    },
+    {
+      "speaker": "you",
+      "ja": "ナプキンをもらえますか？",
+      "en": "Could I have a napkin, please?",
+      "katakana": "クッド アイ ハブ ア ナプキン、プリーズ？"
+    },
+    {
+      "speaker": "you",
+      "ja": "お水ください。",
+      "en": "Water, please.",
+      "katakana": "ウォーター、プリーズ。"
+    },
+    {
+      "speaker": "you",
+      "ja": "お水をもらえますか？",
+      "en": "Could I have some water, please?",
+      "katakana": "クッド アイ ハブ サム ウォーター、プリーズ？"
+    },
+    {
+      "speaker": "you",
+      "ja": "あとどれくらいかかりますか？",
+      "en": "How much longer?",
+      "katakana": "ハウ マッチ ロンガー？"
+    },
+    {
+      "speaker": "you",
+      "ja": "すみません、私の注文はできてますか？",
+      "en": "Excuse me, is my order ready?",
+      "katakana": "エクスクューズ ミー、イズ マイ オーダー レディ？"
+    },
+    {
+      "speaker": "you",
+      "ja": "アップルペイは使えますか？",
+      "en": "Do you take Apple Pay?",
+      "katakana": "ドゥ ユー テイク アップル ペイ？"
+    },
+    {
+      "speaker": "you",
+      "ja": "アップルペイで支払えますか？払ってもいいですか？",
+      "en": "Can I pay with Apple Pay?",
+      "katakana": "キャン アイ ペイ ウィズ アップル ペイ？"
+    },
+    {
+      "speaker": "partner",
+      "ja": "お支払いはどうされますか？",
+      "en": "How would you like to pay?",
+      "katakana": "ハウ ウッド ユー ライク トゥ ペイ？"
+    },
+    {
+      "speaker": "you",
+      "ja": "カードでお願いします。",
+      "en": "By card, please.",
+      "katakana": "バイ カード、プリーズ。"
+    },
+    {
+      "speaker": "you",
+      "ja": "グーグルペイでお願いします。",
+      "en": "Google Pay, please.",
+      "katakana": "グーグル ペイ、プリーズ。"
+    },
+    {
+      "speaker": "you",
+      "ja": "レシートもらえますか？",
+      "en": "Could I have a receipt, please?",
+      "katakana": "クッド アイ ハブ ア リシート、プリーズ？"
+    },
+    {
+      "speaker": "partner",
+      "ja": "レシートいりますか？",
+      "en": "Would you like a receipt?",
+      "katakana": "ウッド ユー ライク ア リシート？"
+    },
+    {
+      "speaker": "you",
+      "ja": "はい（レシートをもらうとき）",
+      "en": "Yes, please.",
+      "katakana": "イェス、プリーズ。"
+    },
+    {
+      "speaker": "you",
+      "ja": "いいえ（レシートをもらわないとき）",
+      "en": "No, thank you.",
+      "katakana": "ノー、サンク ユー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "（レシートを渡されたあとに）レシートいりません。",
+      "en": "I don't need it, thank you.",
+      "katakana": "アイ ドント ニード イット、サンク ユー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "なるほど／そうなんだ（軽く相づち・理解）",
+      "en": "I see.",
+      "katakana": "アイ シー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "へえ",
+      "en": "Oh.",
+      "katakana": "オー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "うんうん",
+      "en": "Yeah. / Uh-huh.",
+      "katakana": "イェー。／ アハー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "そうだよね",
+      "en": "Right. / Yeah.",
+      "katakana": "ライト。／ イェー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "わかる",
+      "en": "I get it.",
+      "katakana": "アイ ゲット イット。"
+    },
+    {
+      "speaker": "you",
+      "ja": "めっちゃわかる",
+      "en": "I totally get it.",
+      "katakana": "アイ トータリー ゲット イット。"
+    },
+    {
+      "speaker": "you",
+      "ja": "それわかる",
+      "en": "I know, right?",
+      "katakana": "アイ ノウ、ライト？"
+    },
+    {
+      "speaker": "you",
+      "ja": "同じ",
+      "en": "Same.",
+      "katakana": "セイム。"
+    },
+    {
+      "speaker": "you",
+      "ja": "確かに",
+      "en": "Exactly.",
+      "katakana": "イグザクトリー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "確かにそうだね",
+      "en": "That's true.",
+      "katakana": "ザッツ トゥルー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "（納得して）なるほどね",
+      "en": "That makes sense.",
+      "katakana": "ザット メイクス センス。"
+    },
+    {
+      "speaker": "you",
+      "ja": "理解した",
+      "en": "Got it.",
+      "katakana": "ガット イット。"
+    },
+    {
+      "speaker": "you",
+      "ja": "そういうことか",
+      "en": "I see what you mean.",
+      "katakana": "アイ シー ワット ユー ミーン。"
+    },
+    {
+      "speaker": "you",
+      "ja": "え！",
+      "en": "What!?",
+      "katakana": "ワット！？"
+    },
+    {
+      "speaker": "you",
+      "ja": "まじで",
+      "en": "Really?",
+      "katakana": "リアリー？"
+    },
+    {
+      "speaker": "you",
+      "ja": "ほんとに！？",
+      "en": "Seriously?",
+      "katakana": "シリアスリー？"
+    },
+    {
+      "speaker": "you",
+      "ja": "ありえない！",
+      "en": "No way!",
+      "katakana": "ノー ウェイ！"
+    },
+    {
+      "speaker": "you",
+      "ja": "やばい！",
+      "en": "Oh my god!",
+      "katakana": "オー マイ ゴッド！"
+    },
+    {
+      "speaker": "you",
+      "ja": "いいね！",
+      "en": "That's nice!",
+      "katakana": "ザッツ ナイス！"
+    },
+    {
+      "speaker": "you",
+      "ja": "めっちゃいいね",
+      "en": "That's great.",
+      "katakana": "ザッツ グレイト。"
+    },
+    {
+      "speaker": "you",
+      "ja": "最高じゃん",
+      "en": "That's awesome.",
+      "katakana": "ザッツ オーサム。"
+    },
+    {
+      "speaker": "you",
+      "ja": "すごいね",
+      "en": "That's amazing.",
+      "katakana": "ザッツ アメイジング。"
+    },
+    {
+      "speaker": "you",
+      "ja": "何するのがすき？",
+      "en": "What do you like to do?",
+      "katakana": "ワット ドゥ ユー ライク トゥ ドゥ？"
+    },
+    {
+      "speaker": "you",
+      "ja": "休みの日は何してる？",
+      "en": "What do you do on weekends?",
+      "katakana": "ワット ドゥ ユー ドゥ オン ウィークエンドズ？"
+    },
+    {
+      "speaker": "you",
+      "ja": "何食べるのがすき？",
+      "en": "What kind of food do you like?",
+      "katakana": "ワット カインド オブ フード ドゥ ユー ライク？"
+    },
+    {
+      "speaker": "you",
+      "ja": "おすすめある？",
+      "en": "Do you have any recommendations?",
+      "katakana": "ドゥ ユー ハブ エニィ レコメンデーションズ？"
+    },
+    {
+      "speaker": "you",
+      "ja": "どれくらいここにいるの？",
+      "en": "How long have you been here?",
+      "katakana": "ハウ ロング ハブ ユー ビーン ヒア？"
+    },
+    {
+      "speaker": "you",
+      "ja": "週末何するの？",
+      "en": "Any plans this weekend?",
+      "katakana": "エニィ プランズ ディス ウィークエンド？"
+    },
+    {
+      "speaker": "you",
+      "ja": "話せてよかった",
+      "en": "It was nice talking with you.",
+      "katakana": "イット ワズ ナイス トーキング ウィズ ユー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "またね",
+      "en": "See you.",
+      "katakana": "シー ユー。"
+    },
+    {
+      "speaker": "you",
+      "ja": "また話そう",
+      "en": "Let's talk again.",
+      "katakana": "レッツ トーク アゲイン。"
+    }
+  ]
+}
