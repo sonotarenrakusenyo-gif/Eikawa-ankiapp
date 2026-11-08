@@ -16,7 +16,7 @@ Mac 上のフォルダにファイルがある状態なので、**GitHub に pus
 
 - `data/scenarios/01-first-friend.json` … 初めて会う友達との会話（27セリフ）
 - `data/scenarios/02-travel-cafe-phrases.json` … 入国・カフェ・相づちフレーズ集（60フレーズ）
-- 一覧は `data/scenarios/index.json` に登録（「全会話」タブでは登録順にすべて表示）
+- 一覧は `data/scenarios/index.json` に登録（「一覧」タブで会話・セクションを選んで表示）
 
 ## 会話を追加するとき
 
