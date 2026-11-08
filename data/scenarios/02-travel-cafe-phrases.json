@@ -26,25 +26,10 @@
       "lineEnd": 3
     },
     {
-      "id": "uber",
-      "title": "Uber・移動",
-      "description": "乗車場所の確認",
-      "lineStart": 4,
-      "lineEnd": 4
-    },
-    {
-      "id": "cafe",
-      "title": "カフェの会話",
-      "description": "注文・カスタム・注文ミス・店内／持ち帰り",
-      "lineStart": 5,
-      "lineEnd": 18
-    },
-    {
-      "id": "payment",
-      "title": "会計・レシート",
-      "description": "支払い方法・レシートの返答",
-      "lineStart": 19,
-      "lineEnd": 28
+      "id": "daily",
+      "title": "Uber・カフェ・会計・雑談",
+      "description": "移動・注文・支払い・レシート・雑談と締めの言葉",
+      "lineRanges": [[4, 28], [51, 59]]
     },
     {
       "id": "reactions",
@@ -52,13 +37,6 @@
       "description": "うんうん・わかる・え！・いいね！など",
       "lineStart": 29,
       "lineEnd": 50
-    },
-    {
-      "id": "chat",
-      "title": "雑談・返答",
-      "description": "質問のしかけ・締めの言葉",
-      "lineStart": 51,
-      "lineEnd": 59
     }
   ],
   "lines": [

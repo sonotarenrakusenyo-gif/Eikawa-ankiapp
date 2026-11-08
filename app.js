@@ -41,6 +41,7 @@ function getSectionsForScenario(data) {
       description: s.description || "",
       lineStart: s.lineStart,
       lineEnd: s.lineEnd,
+      lineRanges: s.lineRanges,
     }));
   }
   return [
@@ -70,6 +71,24 @@ function openSectionMenu() {
   setActiveSection(null);
   renderCurrentView();
   window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function getSectionLineIndices(section) {
+  if (section.lineRanges?.length) {
+    const indices = [];
+    for (const range of section.lineRanges) {
+      const start = range[0];
+      const end = range[1];
+      for (let i = start; i <= end; i += 1) indices.push(i);
+    }
+    return indices;
+  }
+  if (typeof section.lineStart === "number" && typeof section.lineEnd === "number") {
+    const indices = [];
+    for (let i = section.lineStart; i <= section.lineEnd; i += 1) indices.push(i);
+    return indices;
+  }
+  return [];
 }
 
 function loadLikes() {
@@ -348,7 +367,8 @@ async function loadScenarioRegistry() {
 function renderNotesBlock(data, sectionId) {
   if (!data.notes?.length) return null;
   const showForSingle = getSectionsForScenario(data).length === 1;
-  const showForPhrase = data.id === "02-travel-cafe-phrases" && sectionId === "immigration";
+  const showForPhrase =
+    data.id === "02-travel-cafe-phrases" && (sectionId === "immigration" || sectionId === "daily");
   if (!showForSingle && !showForPhrase) return null;
 
   const notes = document.createElement("details");
@@ -413,7 +433,7 @@ async function renderSectionMenu() {
     grid.className = "section-grid";
 
     for (const section of sections) {
-      const count = section.lineEnd - section.lineStart + 1;
+      const count = getSectionLineIndices(section).length;
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "section-card";
@@ -458,10 +478,11 @@ function renderSectionContent(data, section) {
 
   app.appendChild(header);
 
-  const slice = data.lines.slice(section.lineStart, section.lineEnd + 1);
-  const total = slice.length;
-  slice.forEach((line, offset) => {
-    const lineIndex = section.lineStart + offset;
+  const lineIndices = getSectionLineIndices(section);
+  const total = lineIndices.length;
+  lineIndices.forEach((lineIndex, displayIndex) => {
+    const line = data.lines[lineIndex];
+    if (!line) return;
     app.appendChild(
       createLineCard({
         scenarioId: data.id,
