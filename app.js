@@ -1,3 +1,6 @@
+/** 画面右下などで確認できる。index.html の app.js?v= と揃える。 */
+const APP_BUILD = "20260308-section-ui";
+
 const SCENARIO_INDEX_URL = "data/scenarios/index.json";
 const LIKES_STORAGE_KEY = "ruka-english-likes-v1";
 const VIEW_STORAGE_KEY = "ruka-english-view-v1";
@@ -15,6 +18,7 @@ const scenarioCache = new Map();
 let currentView = "all";
 /** @type {string | null} `${scenarioId}:${sectionId}` */
 let activeSectionKey = null;
+let usedRegistryFallback = false;
 
 function lineKey(scenarioId, lineIndex) {
   return `${scenarioId}:${lineIndex}`;
@@ -382,6 +386,7 @@ async function fetchScenario(url) {
 }
 
 async function loadScenarioRegistry() {
+  usedRegistryFallback = false;
   try {
     const res = await fetch(SCENARIO_INDEX_URL);
     if (res.ok) {
@@ -394,7 +399,41 @@ async function loadScenarioRegistry() {
   } catch {
     /* fallback below */
   }
+  usedRegistryFallback = true;
   scenarioRegistry = [{ id: "01-first-friend", url: "data/scenarios/01-first-friend.json" }];
+}
+
+function renderDeploymentHints() {
+  const verEl = document.getElementById("app-version");
+  if (verEl) verEl.textContent = `表示版 ${APP_BUILD}`;
+
+  let banner = document.getElementById("deploy-hint");
+  if (!usedRegistryFallback) {
+    banner?.remove();
+    return;
+  }
+
+  if (!banner) {
+    banner = document.createElement("p");
+    banner.id = "deploy-hint";
+    banner.className = "deploy-hint";
+    banner.setAttribute("role", "status");
+    const header = document.querySelector(".site-header");
+    const nav = document.getElementById("view-tabs");
+    if (header && nav) header.insertBefore(banner, nav);
+    else header?.appendChild(banner);
+  }
+
+  banner.innerHTML = `
+    <strong>会話の一覧を読み込めませんでした。</strong>
+    初回の1本会話だけ表示しています。
+    <code>index.html</code> を直接開かず、
+    <code>python3 -m http.server 8080</code> で
+    <a href="http://localhost:8080">http://localhost:8080</a>
+    を開くか、
+    <a href="https://eikawa-ankiapp.vercel.app" rel="noopener">本番URL</a>
+    を使ってください。
+  `;
 }
 
 function renderNotesBlock(data, sectionId) {
@@ -674,6 +713,7 @@ async function init() {
   }
 
   await loadScenarioRegistry();
+  renderDeploymentHints();
   await renderCurrentView();
 }
 

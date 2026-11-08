@@ -33,6 +33,15 @@ python3 -m http.server 8080
 
 [http://localhost:8080](http://localhost:8080) を開く（ファイルを直接ダブルクリックだけだと読み込みが失敗することがあります）。
 
+**本番URL:** [https://eikawa-ankiapp.vercel.app](https://eikawa-ankiapp.vercel.app)（GitHub の `main` と連携）
+
+### 表示が古い・セクション一覧が出ないとき
+
+1. ヘッダー下に **`表示版 20260308-section-ui`** と出ているか確認（出ていなければ古い `app.js` が残っています）
+2. タブが **「一覧」** で、最初の画面が **「会話・フレーズを選ぶ」** か確認（一長串のカードだけなら旧版）
+3. スーパーリロード（Mac: Cmd+Shift+R / スマホ: サイトデータ削除）
+4. ローカルの場合は **GitHub から pull したフォルダ**（`Eikawa-ankiapp`）でサーバーを起動しているか確認（`Documents/日常英会話音読暗記` が古いままのことがあります）
+
 ## GitHub + Vercel（いつものやり方）
 
 ### 1. GitHub にリポジトリを作る
