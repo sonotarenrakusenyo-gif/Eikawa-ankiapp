@@ -24,9 +24,14 @@
       <p class="loading">会話を読み込み中…</p>
     </main>
 
-    <button type="button" id="back-to-top" class="back-to-top" hidden aria-label="ページの上へ">
-      ↑ 上へ
-    </button>
+    <div class="scroll-floats" id="scroll-floats" hidden aria-hidden="true">
+      <button type="button" id="back-to-list" class="scroll-float-btn section-back" hidden aria-label="一覧に戻る">
+        ← 一覧に戻る
+      </button>
+      <button type="button" id="back-to-top" class="scroll-float-btn back-to-top" hidden aria-label="ページの上へ">
+        ↑ 上へ
+      </button>
+    </div>
 
     <script src="app.js"></script>
   </body>

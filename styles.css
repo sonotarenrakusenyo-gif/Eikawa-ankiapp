@@ -178,6 +178,18 @@ body {
   color: var(--muted);
 }
 
+.section-footer {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.section-footer .section-back {
+  padding: 0.65rem 1.15rem;
+  font-size: 0.9rem;
+  box-shadow: var(--shadow);
+}
+
 .scenario-header {
   background: var(--card);
   border: 1px solid var(--border);
@@ -448,11 +460,18 @@ body {
   border-radius: 8px;
 }
 
-.back-to-top {
+.scroll-floats {
   position: fixed;
   right: 1rem;
   bottom: 1.25rem;
   z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.scroll-float-btn {
   padding: 0.65rem 1rem;
   font-size: 0.9rem;
   font-weight: 600;
@@ -463,22 +482,23 @@ body {
   cursor: pointer;
   color: var(--text);
   transition: opacity 0.2s, transform 0.15s, visibility 0.2s;
+  white-space: nowrap;
 }
 
-.back-to-top:not(.is-visible) {
+.scroll-float-btn:not(.is-visible) {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
   transform: translateY(8px);
 }
 
-.back-to-top.is-visible {
+.scroll-float-btn.is-visible {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
 
-.back-to-top:hover {
+.scroll-float-btn:hover {
   background: #eeeae3;
 }
 

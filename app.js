@@ -294,29 +294,62 @@ function createLineCard({
   return card;
 }
 
-function setupBackToTop() {
-  const btn = document.getElementById("back-to-top");
-  if (!btn || btn.dataset.bound) return;
-  btn.dataset.bound = "1";
+function createSectionBackButton() {
+  const back = document.createElement("button");
+  back.type = "button";
+  back.className = "section-back";
+  back.textContent = "← 一覧に戻る";
+  back.addEventListener("click", openSectionMenu);
+  return back;
+}
+
+function updateScrollFloats() {
+  const wrap = document.getElementById("scroll-floats");
+  const topBtn = document.getElementById("back-to-top");
+  const listBtn = document.getElementById("back-to-list");
+  if (!wrap || !topBtn) return;
 
   const showAfter = 320;
+  const scrolled = window.scrollY > showAfter;
+  const inSection = currentView === "all" && Boolean(activeSectionKey);
 
-  const onScroll = () => {
-    if (window.scrollY > showAfter) {
-      btn.hidden = false;
-      btn.classList.add("is-visible");
+  if (scrolled) {
+    wrap.hidden = false;
+    wrap.setAttribute("aria-hidden", "false");
+    topBtn.hidden = false;
+    topBtn.classList.add("is-visible");
+  } else {
+    wrap.hidden = true;
+    wrap.setAttribute("aria-hidden", "true");
+    topBtn.classList.remove("is-visible");
+    topBtn.hidden = true;
+  }
+
+  if (listBtn) {
+    if (scrolled && inSection) {
+      listBtn.hidden = false;
+      listBtn.classList.add("is-visible");
     } else {
-      btn.classList.remove("is-visible");
-      btn.hidden = true;
+      listBtn.classList.remove("is-visible");
+      listBtn.hidden = true;
     }
-  };
+  }
+}
 
-  window.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
+function setupBackToTop() {
+  const topBtn = document.getElementById("back-to-top");
+  const listBtn = document.getElementById("back-to-list");
+  if (!topBtn || topBtn.dataset.bound) return;
+  topBtn.dataset.bound = "1";
 
-  btn.addEventListener("click", () => {
+  window.addEventListener("scroll", updateScrollFloats, { passive: true });
+  updateScrollFloats();
+
+  topBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
+
+  listBtn?.addEventListener("click", openSectionMenu);
 }
 
 function setupViewTabs() {
@@ -382,16 +415,18 @@ function renderNotesBlock(data, sectionId) {
 function renderSectionToolbar(title) {
   const bar = document.createElement("div");
   bar.className = "section-toolbar";
-  const back = document.createElement("button");
-  back.type = "button";
-  back.className = "section-back";
-  back.textContent = "← 一覧に戻る";
-  back.addEventListener("click", openSectionMenu);
   const heading = document.createElement("span");
   heading.className = "section-toolbar-title";
   heading.textContent = title;
-  bar.append(back, heading);
+  bar.append(createSectionBackButton(), heading);
   return bar;
+}
+
+function renderSectionFooter() {
+  const footer = document.createElement("div");
+  footer.className = "section-footer";
+  footer.appendChild(createSectionBackButton());
+  return footer;
 }
 
 async function renderSectionMenu() {
@@ -494,6 +529,8 @@ function renderSectionContent(data, section) {
       })
     );
   });
+
+  app.appendChild(renderSectionFooter());
 }
 
 async function renderLikesView() {
@@ -605,6 +642,8 @@ async function renderCurrentView() {
 python3 -m http.server 8080</pre>
       </div>
     `;
+  } finally {
+    updateScrollFloats();
   }
 }
 
