@@ -39,6 +39,27 @@ body {
   color: var(--muted);
 }
 
+.app-version {
+  margin: 0 0 0.35rem;
+  font-size: 0.72rem;
+  color: #8a8580;
+}
+
+.deploy-hint {
+  margin: 0 0 0.75rem;
+  padding: 0.65rem 0.85rem;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: #92400e;
+  background: #fffbeb;
+  border: 1px solid #fcd34d;
+  border-radius: 8px;
+}
+
+.deploy-hint a {
+  color: #b45309;
+}
+
 .view-tabs {
   display: flex;
   gap: 0.5rem;
