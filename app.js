@@ -291,7 +291,6 @@ async function loadScenarioRegistry() {
 
 function renderScenarioFull(data) {
   const app = document.getElementById("app");
-  app.innerHTML = "";
 
   const header = document.createElement("section");
   header.className = "scenario-header";
@@ -397,6 +396,7 @@ async function renderCurrentView() {
     }
 
     if (!scenarioRegistry.length) throw new Error("会話が登録されていません");
+    app.innerHTML = "";
     for (const reg of scenarioRegistry) {
       const data = await fetchScenario(reg.url);
       renderScenarioFull(data);
